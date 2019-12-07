@@ -1,69 +1,107 @@
-<div id="border"></div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YibinOuyang</title>
+</head>
 
-<header id="mainheader">
-  
+<body>
+    <div id="topbar">
+        <img src="image/logo.svg" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
 
-  <div id="nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      
-    </ul>
-  </div>
-</header>
+        </ul>
+    </div>
 
-<section class="part1">
-  <img src="" alt="">
-  <div id="logo">
-    logo here
-  </div>
-  <h2>Ouyang Yibin</h2>
+    <header id="mainheader">
+        <img id="logo" src="image/logo.svg" alt="">
+        <h3 class="logointro">YibinOuyang</h3>
+        <p>FRONT-END DEVELOPER</p>
 
-</section>
+    </header>
+
+    <section class="part1">
+        <img src="image/yibin.jpeg" alt="">
+        <p>I am a student at Fanshawe Collage study IDP3
+            and will graduate next April.
+            I want to be a web developer in the future. </p>
+
+    </section>
 
 
-<section id="about">   
-   <div id="nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      
-    </ul>
-  </div>
-   <h2 class="hidden">About Me</h2>
-   <p>A student in Fanshawe Collage</p>
-  
-  <div id="pastwork">
-    <img src="#" alt="">
-    <img src="#" alt="">
-    <img src="#" alt="">
-  </div>
+    <section id="about">
 
-  <div id="snap"></div>
-</section>
+        <h3>About Me</h3>
+        <p>Past Projects</p>
 
-<section id="contact">
-     <div id="nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      
-    </ul>
-  </div>
-  <h2>Contact Me</h2>>
+        <div id="pastwork">
+            <div id="pastwork1">
+                <img src="image/1.jpeg" alt="">
+                <img src="image/1.jpeg" alt="">
+                <img src="image/2.jpeg" alt="">
+            </div>
+            <div id="pastwork2">
+                <img src="image/1.jpeg" alt="">
+                <img src="image/1.jpeg" alt="">
+                <img src="image/1.jpeg" alt=""></div>
 
-  <form action="" id="contact-form" method="POST">
-    <input placeholder="Name" type="text" required autofocus>
-    <input placeholder="Email" type="text" required autofocus>
-    <textarea placeholder="Phone" type="text" required autofocus></textarea>
-  
-    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-  </form>
-</section>
+        </div>
 
-<footer id="footer">
-  
-</footer>
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+        <div id="formcon">
+            <form id="ContactForm" action="form.php" method="post"></form>
+            <label>Name: (required)</label>
+            <input type="text" required id="Name" name="fullName" size="40" placeholder="Enter your name">
+
+            <label>Phone Num: (require)</label>
+            <input type="email" required id="E-mail" size="40" placeholder="Enter your Email">
+
+            <label>Feedback:</label>
+            <textarea name="comments" id="Comments" required cols="50" rows="8"></textarea>
+            <input id="Submit" type="Submit" value="Submit">
+        </div>
+    </section>
+
+    <section id="photograph">
+        <h2 class="hidden">photograph works in Montreal</h2>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </section>
+
+    <footer id="footer">
+        <div class="socialMedia">
+            <h2 class="hidden">Social Media</h2>
+            <ul id="iconNav">
+                <li id="facebook">
+                    <a href="http://www.facebook.com">
+                        <img src="images/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li id="twitter">
+                    <a href="http://www.twitter.com">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                </li>
+                <li id="instagram">
+                    <a href="https://www.instagram.com/?hl=zh-cn">
+                        <img src="images/ins.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="copyRight">
+            <p>@copyright 2019 YibinOuyang</p>
+        </div>
+    </footer>
+</body>
