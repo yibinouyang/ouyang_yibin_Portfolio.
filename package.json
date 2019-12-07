@@ -1,24 +1,17 @@
 {
-  "name": "ouyang_yibin_portfolio.",
-  "version": "1.0.0",
-  "description": "",
-  "main": "config.js",
-  "dependencies": {
-    "express-generator": "^4.16.1",
-    "hbs": "^4.0.6"
-  },
-  "devDependencies": {},
+  "name": "expresswithgsandwp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yibinouyang/ouyang_yibin_Portfolio..git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yibinouyang/ouyang_yibin_Portfolio./issues"
-  },
-  "homepage": "https://github.com/yibinouyang/ouyang_yibin_Portfolio.#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.0.6",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1"
+  }
 }
