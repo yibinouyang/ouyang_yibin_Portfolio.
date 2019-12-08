@@ -1,1 +1,345 @@
-body{width:400px;background-color:#efefef;text-align:center;margin:0 auto}body .hidden{display:none}body *{margin:0;border:0;padding:0;font-size:13pt}body #topbar{width:400px;height:50px;background-color:#deb887;margin-left:0px}body #topbar img{width:50px;height:auto;margin-left:-200px}body #topbar ul{list-style-type:none;padding:7px;margin-left:120px;margin-top:-40px}body #topbar ul li{display:inline;font-size:10px;margin-left:15px}body #topbar ul li a{color:#a8b4f7;padding:7px;font-size:13px;font-family:"Varela Round",sans-serif}body #topbar a:hover{background:#5592ad;color:orange;border-radius:3px}body #mainheader{width:300px;height:250px;text-align:center;margin-top:30px;margin-left:20px}body #mainheader img{width:160px;text-align:center;margin:0 auto;margin-left:80px}body #mainheader h3{font-size:22px;text-align:center;margin:0 auto;color:#d2691e;margin-left:50px}body #mainheader p{font-size:18px;text-align:center;margin:0 auto;color:#b8860b;margin-left:50px}body .part1{text-align:center;margin:0 auto;display:inline}body .part1 img{width:200px;height:auto;border-radius:10px}body .part1 p{text-align:center;width:350px;font-size:18px;color:#595959;margin-top:15px;margin-left:20px}body #about{text-align:center;margin:0 auto;margin-top:30px}body #about h3{text-align:center;color:#315299;font-size:20px}body #about p{text-align:center;color:#556b2f;font-size:18px;margin-top:10px}body #about #pastwork{text-align:center;margin:0 auto;display:inline}body #about #pastwork img{width:300px;height:auto;margin-top:10px;border-radius:10px}body #about #pastwork #pastwork1{display:inline}body #about #pastwork #pastwork2{display:inline}body #contact{margin:0 auto;text-align:center;margin-top:30px}body #contact h2{font-size:20px;color:#ff8c00;text-align:center;margin:0 auto}@media screen and (min-width: 600px){body{width:750px;background-color:#d9fff4;text-align:center;margin:0 auto}body .hidden{display:none}body *{margin:0;border:0;padding:0;font-size:13pt}body #topbar{width:750px;height:50px;background-color:#0abda0;margin-left:0px}body #topbar img{width:50px;height:auto;margin-left:-80px}body #topbar ul{list-style-type:none;padding:7px;margin-left:80px;margin-top:-40px}body #topbar ul li{display:inline;font-size:10px;margin-left:15px}body #topbar ul li a{color:#583e2e;padding:7px;font-size:13px;font-family:"Varela Round",sans-serif}body #topbar a:hover{background:#5592ad;color:orange;border-radius:3px}body #mainheader{width:750px;height:300px;text-align:center;margin-top:30px;margin-left:0px;background-color:#d4dca9}body #mainheader img{width:230px;text-align:center;margin:0 auto;margin-left:50px;margin-top:20px}body #mainheader h3{font-size:22px;text-align:center;margin:0 auto;color:#595775;margin-left:50px}body #mainheader p{font-size:18px;text-align:center;margin:0 auto;color:#aba6bf;margin-left:50px}body .part1{text-align:center;margin:0 auto;display:inline-block;background:linear-gradient(#107050, #4dd8ad);width:750px;height:400px;margin-top:20px}body .part1 img{width:300px;height:auto;border-radius:30px;margin-top:20px}body .part1 p{text-align:center;width:350px;font-size:18px;color:#8a140e}body #about{text-align:center;margin:0 auto;margin-top:30px}body #about h3{text-align:center;color:#583e2e;font-size:20px}body #about p{text-align:center;color:#556b2f;font-size:16px}body #about #pastwork{text-align:center;margin:0 auto;display:inline}body #about #pastwork img{width:200px;height:auto;margin-top:10px;border-radius:10px}body #about #pastwork #pastwork1{display:inline-block}body #about #pastwork #pastwork1 img img{width:180px;height:auto;margin-top:10px;border-radius:10px;margin-left:15px}body #about #pastwork #pastwork2{display:inline-block}body #about #pastwork #pastwork2 img img{width:180px;height:auto;margin-top:10px;border-radius:10px;margin-left:15px}body #contact{margin:0 auto;text-align:center;margin-top:30px;width:750px;height:400px;background-color:#51a2d9}body #contact h2{font-size:20px;color:#595775;text-align:center;margin:0 auto}body #contact #formcon{display:flex;flex-direction:column;margin:auto;margin-top:30px}body #contact #formcon label{font-size:16px;color:#aba6bf;margin-right:500px}body #contact #formcon input,body #contact #formcon textarea{display:block;margin-top:0px;margin-bottom:10px;padding:6px;width:320px;height:30px;background-color:#fff;border:2px solid #999;font-size:10px}}/*# sourceMappingURL=main.css.map */
+body {
+  width: 400px;
+  background-color: #efefef;
+  text-align: center;
+  margin: 0 auto;
+}
+body .hidden {
+  display: none;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 13pt;
+}
+body #topbar {
+  width: 400px;
+  height: 50px;
+  background-color: burlywood;
+  margin-left: 0px;
+}
+body #topbar img {
+  width: 50px;
+  height: auto;
+  margin-left: -200px;
+}
+body #topbar ul {
+  list-style-type: none;
+  padding: 7px;
+  margin-left: 120px;
+  margin-top: -40px;
+}
+body #topbar ul li {
+  display: inline;
+  font-size: 10px;
+  margin-left: 15px;
+}
+body #topbar ul li a {
+  color: #a8b4f7;
+  padding: 7px;
+  font-size: 13px;
+  font-family: "Varela Round", sans-serif;
+}
+body #topbar a:hover {
+  background: #5592ad;
+  color: orange;
+  border-radius: 3px;
+}
+body #mainheader {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+body #mainheader img {
+  width: 160px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 80px;
+}
+body #mainheader h3 {
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+  color: chocolate;
+  margin-left: 50px;
+}
+body #mainheader p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  color: darkgoldenrod;
+  margin-left: 50px;
+}
+body .part1 {
+  text-align: center;
+  margin: 0 auto;
+  display: inline;
+}
+body .part1 img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+body .part1 p {
+  text-align: center;
+  width: 350px;
+  font-size: 18px;
+  color: #595959;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+body #about {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+body #about h3 {
+  text-align: center;
+  color: #315299;
+  font-size: 20px;
+}
+body #about p {
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 18px;
+  margin-top: 10px;
+}
+body #about #pastwork {
+  text-align: center;
+  margin: 0 auto;
+  display: inline;
+}
+body #about #pastwork img {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+body #about #pastwork #pastwork1 {
+  display: inline;
+}
+body #about #pastwork #pastwork2 {
+  display: inline;
+}
+body #contact {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+body #contact h2 {
+  font-size: 20px;
+  color: darkorange;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 750px;
+    background-color: #d9fff4;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .hidden {
+    display: none;
+  }
+  body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 13pt;
+  }
+  body #topbar {
+    width: 750px;
+    height: 50px;
+    background-color: #0abda0;
+    margin-left: 0px;
+  }
+  body #topbar img {
+    width: 50px;
+    height: auto;
+    margin-left: -80px;
+  }
+  body #topbar ul {
+    list-style-type: none;
+    padding: 7px;
+    margin-left: 80px;
+    margin-top: -40px;
+  }
+  body #topbar ul li {
+    display: inline;
+    font-size: 10px;
+    margin-left: 15px;
+  }
+  body #topbar ul li a {
+    color: #583e2e;
+    padding: 7px;
+    font-size: 13px;
+    font-family: "Varela Round", sans-serif;
+  }
+  body #topbar a:hover {
+    background: #5592ad;
+    color: orange;
+    border-radius: 3px;
+  }
+  body #mainheader {
+    width: 750px;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #d4dca9;
+  }
+  body #mainheader img {
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  body #mainheader h3 {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    color: #595775;
+    margin-left: 50px;
+  }
+  body #mainheader p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    color: #aba6bf;
+    margin-left: 50px;
+  }
+  body .part1 {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    background: linear-gradient(#107050, #4dd8ad);
+    width: 750px;
+    height: 400px;
+    margin-top: 20px;
+  }
+  body .part1 img {
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  body .part1 p {
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+    color: #8a140e;
+  }
+  body .part1 .popover {
+    display: none;
+    position: absolute;
+    top: 18%;
+    left: 110%;
+    background-color: orange;
+    width: 350px;
+    z-index: 1;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  body .part1 .show-popover {
+    display: block;
+  }
+  body .part1 .see_more {
+    display: block;
+    padding: 12px 18px;
+    border-radius: 8px;
+    color: white;
+    background-color: salmon;
+    margin-top: 8px;
+  }
+  body #about {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  body #about h3 {
+    text-align: center;
+    color: #583e2e;
+    font-size: 20px;
+  }
+  body #about p {
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 16px;
+  }
+  body #about #pastwork {
+    text-align: center;
+    margin: 0 auto;
+    display: inline;
+  }
+  body #about #pastwork img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  body #about #pastwork #pastwork1 {
+    display: inline-block;
+  }
+  body #about #pastwork #pastwork1 img img {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  body #about #pastwork #pastwork2 {
+    display: inline-block;
+  }
+  body #about #pastwork #pastwork2 img img {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  body #contact {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    width: 750px;
+    height: 400px;
+    background-color: #51a2d9;
+  }
+  body #contact h2 {
+    font-size: 20px;
+    color: #595775;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body #contact #formcon {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+  }
+  body #contact #formcon label {
+    font-size: 16px;
+    color: #aba6bf;
+    margin-right: 500px;
+  }
+  body #contact #formcon input,
+body #contact #formcon textarea {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 320px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #999;
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
