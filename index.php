@@ -33,7 +33,13 @@
         <p>I am a student at Fanshawe Collage study IDP3
             and will graduate next April.
             I want to be a web developer in the future. </p>
-        <button class="see_more">see more</button>
+        <button class="see_more" data-target="1">see more</button>
+        <div class="popover">
+            <h2 class="name"></h2>
+            <h3 class="collage"></h3>
+            <h4 class="major"></h4>
+            <p class="hobbies"></p>
+        </div>
 
     </section>
 
@@ -109,4 +115,5 @@
             <p>@copyright 2019 YibinOuyang</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
