@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pw = "root";
-$db = "db_protfolio";
+$db = "db_portfolio";
 
 $conn = mysqli_connect($host, $user, $pw, $db);
 
@@ -16,7 +16,7 @@ if (!$conn) {
 if (isset($_GET["id"])) {
     $theLabel = $_GET["id"];
 
-    $myQuery = "SELECT * FROM tbl_protfolio WHERE id='$theLabel'";
+    $myQuery = "SELECT * FROM tbl_portfolio WHERE id='$theLabel'";
 
     $result = mysqli_query($conn, $myQuery);
     $rows = array();

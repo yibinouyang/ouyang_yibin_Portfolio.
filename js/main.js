@@ -14,16 +14,16 @@
         .then(res => res.json())
         .then(data => {
             console.log(data);
-            buildPopover(data, targetElement);
+            buildData(data, targetElement);
         })
-        .catch((err) => console.log(err));
+         .catch((err) => console.log(err));
     }
 
-    function buildPopover(studentdata, el) {
-        popOver.querySelector(".name").textContent = `name: ${studentdata.name}`;
-        popOver.querySelector(".collage").textContent = `collage: ${studentdata.collage}`;
-        popOver.querySelector(".major").textContent = `collage: ${studentdata.major}`;
-        popOver.querySelector(".habbies").textContent = `collage: ${studentdata.habbies}`;
+    function buildData(studentdata, el) {
+        popOver.querySelector(".name").textContent= studentdata.name;
+        popOver.querySelector(".collage").textContent = studentdata.collage;
+        popOver.querySelector(".major").textContent = studentdata.major;
+        popOver.querySelector(".hobbies").textContent = studentdata.habbies;
 
        popOver.classList.add('show-popover');
 
