@@ -8,10 +8,10 @@ if(empty($_POST)){
     exit;
 }
 
-$name = '';
-$email = '';
-$subject = '';
-$feedback = '';
+// $name = '';
+// $email = '';
+// $subject = '';
+// $message = '';
 $recipient = 'cyreneeeeee@gmail.com';
 
 // some validations
@@ -25,21 +25,21 @@ if(isset($_POST['email'])){
     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
-if(isset($_POST['subject'])){
-    $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
-}
+// if(isset($_POST['subject'])){
+//     $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+// }
 
 if(isset($_POST['feedback'])){
     $feedback = $_POST['feedback'];
 }
 
-$headers = [
-    'From' => 'noreply@test.ca',
-    'reply-To' => $name.'<'.$email.'>'
-];
+// $headers = [
+//     'From' => 'noreply@test.ca',
+//     'reply-To' => $name.'<'.$email.'>'
+// ];
 
-if(mail($recipient, $subject, $feedback, $headers)){
-    echo '<p> Thanks for you contact me,' .$name.'you will get reply with 48 hours </p>';
+if(mail($recipient, $name, $feedback)){
+    echo '<p> Thank you for you contact me,' .$name.'you will get reply with 48 hours </p>';
 }else{
     echo '<p>We are sorry but the email did not go through</p>';
 }
