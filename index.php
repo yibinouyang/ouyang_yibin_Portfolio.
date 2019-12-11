@@ -12,7 +12,7 @@
 
 <body>
     <div id="topbar">
-        <img src="image/logo.svg" alt="">
+        <img src="image/logo2.svg" alt="">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -22,19 +22,22 @@
     </div>
 
     <header id="mainheader">
-        <img id="logo" src="image/logo.svg" alt="">
-        <h3 class="logointro">YibinOuyang</h3>
-        <p>FRONT-END DEVELOPER</p>
+        <img src="image/ouyang.jpeg" alt="">
+        <h2>hi, I'm </h2>
+        <div class="greenbar"></div>
+        <h3>YibinOuyang</h3>
+        <div class="yellowbar"></div>
+        <p>A FRONT-END DEVELOPER</p>
+        <img src="image/yibin.jpeg" alt="">
 
     </header>
 
     <section class="part1">
-        <img src="image/yibin.jpeg" alt="">
+        <div class="greybar"></div>
+        <img src="image/logo2.svg" alt="">
         <p>I am a student at Fanshawe Collage study IDP3
             and will graduate next April.
             I want to be a web developer in the future. </p>
-        <button class="see_more" data-target="1">see more</button>
-        <div class="popover">
             <h2 class="name"></h2>
             <h3 class="collage"></h3>
             <h4 class="major"></h4>
@@ -48,6 +51,7 @@
 
         <h3>About Me</h3>
         <p>Past Projects</p>
+        <div class="greybar2"></div>
 
         <div id="pastwork">
             <div id="pastwork1">
@@ -67,26 +71,26 @@
     <section id="contact">
 
         <h2>Contact Me</h2>
+        <div class="greybar3"></div>
         <div id="formcon">
             <form id="ContactForm" action="form.php" method="post"></form>
             <label>Name: (required)</label>
             <input type="text" required id="Name" name="fullName" size="40" placeholder="Enter your name">
 
             <label>Phone Num: (require)</label>
-            <input type="email" required id="E-mail" size="40" placeholder="Enter your Email">
+            <input type="phone" required id="Phone" size="40" placeholder="Enter your Phone">
 
             <label>Feedback:</label>
-            <textarea name="comments" id="Comments" required cols="50" rows="8"></textarea>
+            <textarea name="comments" id="Comments" required cols="40" rows="6"></textarea>
             <input id="Submit" type="Submit" value="Submit">
         </div>
     </section>
 
     <section id="photograph">
-        <h2 class="hidden">photograph works in Montreal</h2>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <h2>photograph works in Montreal</h2>
+        <div class="bluebar"></div>
+        <img src="image/photo2.jpeg" alt="">
+        <img src="image/photo1.jpeg" alt="">
     </section>
 
     <footer id="footer">
@@ -95,17 +99,17 @@
             <ul id="iconNav">
                 <li id="facebook">
                     <a href="http://www.facebook.com">
-                        <img src="image/facebook.svg" alt="facebook">
+                        <img src="image/facebook.svg" alt="">
                     </a>
                 </li>
                 <li id="twitter">
                     <a href="http://www.twitter.com">
-                        <img src="image/twitter.svg" alt="twitter">
+                        <img src="image/twitter.svg" alt="">
                     </a>
                 </li>
                 <li id="instagram">
                     <a href="https://www.instagram.com/?hl=zh-cn">
-                        <img src="image/ins.svg" alt="instagram">
+                        <img src="image/ins.svg" alt="">
                     </a>
                 </li>
             </ul>
