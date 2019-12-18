@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <div class="container">
+	<title>Music Mixer</title>
+	<h1 class="hidden">Music Mixer</h1>
+<link href="music/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="music/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<section id="topBar">
+        <h2 class="hidden">topBar</h2>
+        <p>Let's Play Some MusicGame！</p>
+<body id="mainBody">
+	</section><!--end topBar-->
+
+  <div id="topic">
+    <p>Drag the icon on the left to the right to play music</p>
+  </div>
+
+  <div id="twodiv">
+	<audio class="audioController" src="audio/music1.wav" loop="true"></audio>
+	<audio class="audioController" src="audio/music2.wav" loop="true"></audio>
+	<audio class="audioController" src="audio/music3.wav" loop="true"></audio>
+	<audio class="audioController" src="audio/music4.wav" loop="true"></audio>
+    <div id="space" ondrop="dropForSpace1(event)" ondragover="allowDrop(event)">
+      <img id="rap1" src="image/rap1.jpg" alt="rap1" draggable="true" ondragstart="drag(event)" data-mindex=0>
+      <img id="rap2" src="image/rap2.jpg" alt="rap2" draggable="true" ondragstart="drag(event)" data-mindex=1>
+      <img id="rap3" src="image/rap3.jpg" alt="rap3" draggable="true" ondragstart="drag(event)" data-mindex=2> 
+      <img id="rap4" src="image/rap4.jpg" alt="rap4" draggable="true" ondragstart="drag(event)" data-mindex=3>
+    </div>
+
+    <div id="space2">
+      <div class="place1" ondrop="dropForSpace2(event)" ondragover="allowDrop(event)" data-allow-drop=true></div>
+      <div class="place2" ondrop="dropForSpace2(event)" ondragover="allowDrop(event)" data-allow-drop=true></div>
+      <div class="place3" ondrop="dropForSpace2(event)" ondragover="allowDrop(event)" data-allow-drop=true></div>
+      <div class="place4" ondrop="dropForSpace2(event)" ondragover="allowDrop(event)" data-allow-drop=true></div>
+      
+
+    </div>
+  </div>
+            <script src="music/main.js"></script>
+
+    <footer id="mainFooter">
+        
+    </footer>
+</body>
+</html>

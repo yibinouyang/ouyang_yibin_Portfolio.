@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*CSS Documents */
+
+.container{
+  margin-left: -10px;
+  margin-top: -30px;
+  width: 1580px;
+  height: 900px;
+}
+#topBar{
+  background: black;
+  width: 1580px;
+  height: 80px;
+}
+
+#topBar p{
+  font-size: 35px;
+  padding-left: 470px;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+#topic{
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(grey 20%,white  80%);
+}
+#topic p{
+  font-size: 30px;
+  padding-left: 330px;
+  margin-top: 30px;
+  color: pink;
+}
+#twodiv{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+  border-bottom: solid 3px grey;
+  border-left: solid 3px grey;
+  border-top: solid 3px grey;
+  border-right: solid 3px grey;
+  margin-top: 70px;
+  margin-left: 30px;
+  padding-left: 0px;
+  height: 550px;
+  width: 1330px;
+}
+
+#space{
+  width: 420px;
+  height: 420px;
+  margin-left: 80px;
+  background: linear-gradient(black 20%, silver 80%);
+  margin-top: 80px;
+}
+#space img{
+  width: 100px;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 85px;
+}
+#space2{
+   width: 650px;
+  height: 420px;
+  margin-left: 80px;
+  background: linear-gradient(silver 20%, black 80%);
+  margin-top: 80px;
+  margin-right: 80px;
+
+}
+#mainNav ul
+{
+  list-style-type: none;
+  padding: 15px;
+  padding-left: 220px;
+}
+
+#mainNav ul li
+{
+  display: inline;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+#mainNav ul li a
+{
+  font-family: 'Indie Flower', cursive;
+  color: #fbffca;
+  padding: 13px;
+  background-color: #6bb270;
+  font-size: 30px;
+}
+
+
+#mainNav ul li a:hover{
+  background: rgb(226,29,22);
+  background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
+  background: -webkit-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+  background: -o-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+  background: -ms-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+  background: linear-gradient(to bottom, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ff766', endColorstr='#7ff766',GradientType=0 );
+}
+
+.hidden
+{
+  display: none;
+}
+body{
+  width: 1080px;
+  height: 960px;
+ background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(#fff, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(#fff, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+#pic{
+  width: 100px;
+  height: 100px;
+  margin-left: 450px;
+  margin-top: 300px;
+}
+
+#space2{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+  padding-left: 0px;
+}
+
+.place1{
+  width: 105px;
+  height: 105px;
+  border: 6px dotted transparent;
+  border-color: silver;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.place2{
+  width: 105px;
+  height: 105px;
+  border: 6px dotted transparent;
+  border-color: silver;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.place3{
+  width: 105px;
+  height: 105px;
+  border: 6px dotted transparent;
+  border-color: silver;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.place4{
+  width: 105px;
+  height: 105px;
+  border: 6px dotted transparent;
+  border-color: silver;
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

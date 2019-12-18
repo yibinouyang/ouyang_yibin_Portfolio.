@@ -1,0 +1,31 @@
+body{
+    width: 1080px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(43, 95, 226);
+}
+img{
+    width: 300px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+}
+#img2{
+    width: 550px;
+}
+h2{
+    font-size: 20px;
+    color: chocolate;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+    width: 700px;
+    margin-left: 170px;
+}
