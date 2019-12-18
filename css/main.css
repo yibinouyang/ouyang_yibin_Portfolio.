@@ -14,37 +14,45 @@ body * {
   font-size: 13pt;
 }
 body #topbar {
-  background-color: #88aab8;
+  background-color: #f3f9f1;
   margin-left: 0px;
-  height: 40px;
+  height: 60px;
+  text-align: left;
+  display: flex;
 }
 body #topbar img {
   width: 50px;
   height: auto;
-  margin-right: 360px;
-  margin-top: -10px;
+  margin-top: 0px;
+  text-align: left;
+  display: flex;
 }
-body #topbar ul {
+body #mainNav {
   list-style-type: none;
-  padding: 7px;
-  margin-left: 120px;
-  margin-top: -60px;
+  max-width: 550px;
+  text-align: center;
+  height: auto;
+  display: none;
 }
-body #topbar ul li {
-  display: inline;
-  font-size: 10px;
-  margin-left: 15px;
+body #mainNav ul {
+  list-style-type: none;
+  padding: 10px;
 }
-body #topbar ul li a {
-  color: white;
-  padding: 7px;
+body #mainNav li {
+  list-style-type: none;
+  font-size: 15px;
+  margin-left: 8px;
+  padding-bottom: 8px;
+}
+body #mainNav a {
+  list-style-type: none;
+  color: #5eb4e9;
+  padding: 10px;
   font-size: 18px;
   font-family: "Varela Round", sans-serif;
 }
-body #topbar a:hover {
-  background: #5592ad;
+body #mainNav a:hover {
   color: orange;
-  border-radius: 3px;
 }
 body #mainheader {
   width: 300px;
@@ -59,12 +67,13 @@ body #mainheader img {
   margin-left: 0px;
 }
 body #mainheader h2 {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   color: #bdbdbd;
   margin-top: 80px;
   width: 200px;
   margin-left: 220px;
+  font-family: "Baloo Bhai", cursive;
 }
 body #mainheader .greenbar {
   width: 260px;
@@ -80,22 +89,24 @@ body #mainheader .yellowbar {
   margin-top: 20px;
 }
 body #mainheader h3 {
-  font-size: 23px;
+  font-size: 28px;
   text-align: right;
   margin: 0 auto;
   color: #b0b0b0;
   margin-top: 28px;
   margin-left: 220px;
+  font-family: "Lobster", cursive;
 }
 body #mainheader p {
   width: 300px;
-  font-size: 18px;
+  font-size: 22px;
   text-align: right;
   margin: 0 auto;
   color: #3e3e3e;
   margin-top: 22px;
   margin-bottom: 20px;
   margin-left: 100px;
+  font-family: "Baloo Bhai", cursive;
 }
 body .part1 {
   text-align: center;
@@ -122,6 +133,7 @@ body .part1 p {
   color: #5592ad;
   margin-top: 0px;
   margin-left: 30px;
+  font-family: "Didact Gothic", sans-serif;
 }
 body #about {
   text-align: center;
@@ -138,6 +150,7 @@ body #about p {
   color: darkolivegreen;
   font-size: 22px;
   margin-top: 30px;
+  font-family: "Didact Gothic", sans-serif;
 }
 body #about .greybar2 {
   width: 220px;
@@ -177,6 +190,12 @@ body #contact .greybar3 {
   background-color: #95cbc7;
   margin-bottom: 60px;
 }
+body #contact #contacttable {
+  display: flex;
+}
+body #contact #contacttable .part4 {
+  display: none;
+}
 body #contact h2 {
   font-size: 30px;
   color: #ffd900;
@@ -208,6 +227,7 @@ body #photograph h2 {
   text-align: right;
   margin-top: 40px;
   display: flex;
+  font-family: "Didact Gothic", sans-serif;
 }
 body #photograph .bluebar {
   margin-top: 10px;
@@ -263,33 +283,45 @@ body #footer .socialMedia img {
     height: 60px;
     background-color: #89d2e8;
     margin-left: 0px;
+    display: none;
   }
   body #topbar img {
+    display: none;
     width: 90px;
     height: auto;
     margin-left: -220px;
     margin-top: -20px;
   }
-  body #topbar ul {
-    list-style-type: none;
-    padding: 7px;
-    margin-left: 220px;
-    margin-top: -80px;
-  }
-  body #topbar ul li {
+  body #mainNav {
     display: inline;
-    font-size: 10px;
-    margin-left: 15px;
+    text-align: center;
   }
-  body #topbar ul li a {
-    color: #583e2e;
-    padding: 7px;
-    font-size: 16px;
+  body #mainNav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -50px;
   }
-  body #topbar a:hover {
-    background: #eeeeff;
-    color: #fec865;
-    border-radius: 6px;
+  body #mainNav li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 22px;
+    margin-left: 8px;
+    padding-bottom: 8px;
+    display: inline;
+  }
+  body #mainNav a {
+    text-align: center;
+    list-style-type: none;
+    color: #8899a4;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "Varela Round", sans-serif;
+    display: inline;
+  }
+  body #mainNav a:hover {
+    color: orange;
   }
   body #mainheader {
     width: 750px;
@@ -456,6 +488,17 @@ body #footer .socialMedia img {
     height: 460px;
     background-color: #fdf05d;
   }
+  body #contact #contacttable {
+    display: inline;
+  }
+  body #contact #contacttable .part4 {
+    display: flex;
+    width: 230px;
+  }
+  body #contact #contacttable .part4 img {
+    width: 260px;
+    height: auto;
+  }
   body #contact h2 {
     font-size: 30px;
     color: #595775;
@@ -468,7 +511,8 @@ body #footer .socialMedia img {
     text-align: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 30px;
+    margin-top: -280px;
+    margin-right: 36px;
   }
   body #contact #formcon label {
     font-size: 16px;
@@ -554,6 +598,7 @@ body #contact #formcon textarea {
     list-style-type: none;
   }
   body #topbar {
+    display: none;
     width: 1080px;
     height: 90px;
     background-color: #89d2e8;
@@ -562,29 +607,38 @@ body #contact #formcon textarea {
   body #topbar img {
     width: 90px;
     height: auto;
-    margin-left: -220px;
-    margin-top: -20px;
+    display: none;
   }
-  body #topbar ul {
-    list-style-type: none;
-    padding: 7px;
-    margin-left: 220px;
-    margin-top: -80px;
-  }
-  body #topbar ul li {
+  body #mainNav {
     display: inline;
-    font-size: 10px;
-    margin-left: 15px;
+    text-align: center;
   }
-  body #topbar ul li a {
-    color: #583e2e;
-    padding: 7px;
-    font-size: 16px;
+  body #mainNav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -50px;
   }
-  body #topbar a:hover {
-    background: #eeeeff;
-    color: #fec865;
-    border-radius: 6px;
+  body #mainNav li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 22px;
+    margin-left: 8px;
+    padding-bottom: 8px;
+    display: inline;
+  }
+  body #mainNav a {
+    text-align: center;
+    list-style-type: none;
+    color: #8899a4;
+    padding: 20px;
+    font-size: 22px;
+    font-family: "Varela Round", sans-serif;
+    display: inline;
+  }
+  body #mainNav a:hover {
+    color: orange;
   }
   body #mainheader {
     width: 1080px;
@@ -601,10 +655,10 @@ body #contact #formcon textarea {
     margin-top: 30px;
   }
   body #mainheader .greenbar {
-    width: 100px;
-    height: 20px;
-    background-color: #faf8ed;
-    margin-left: 180px;
+    width: 300px;
+    height: 26px;
+    background-color: #fde452;
+    margin-left: 780px;
     margin-top: 8px;
     text-align: right;
   }
@@ -616,27 +670,26 @@ body #contact #formcon textarea {
     margin-top: 20px;
   }
   body #mainheader h2 {
-    font-size: 40px;
-    text-align: center;
+    font-size: 50px;
+    text-align: right;
     color: #595775;
     margin-top: 80px;
+    margin-left: 860px;
     width: 200px;
-    margin-left: 280px;
   }
   body #mainheader h3 {
-    font-size: 30px;
-    text-align: center;
+    font-size: 40px;
+    text-align: right;
     margin: 0 auto;
     color: #595775;
-    margin-left: 0px;
     margin-top: 20px;
   }
   body #mainheader p {
     font-size: 22px;
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
     color: #aba6bf;
-    margin-left: 220px;
+    margin-right: 0px;
     margin-top: 20px;
     margin-bottom: 50px;
   }
@@ -644,8 +697,8 @@ body #contact #formcon textarea {
     text-align: center;
     margin: 0 auto;
     display: inline-block;
-    width: 1280px;
-    height: 800px;
+    width: 1080px;
+    height: 700px;
     margin-top: 0px;
   }
   body .part1 .greybar {
@@ -657,40 +710,19 @@ body #contact #formcon textarea {
     margin-top: 30px;
   }
   body .part1 img {
+    text-align: center;
     width: 400px;
     height: auto;
-    border-radius: 30px;
     margin-top: 50px;
-    margin-right: 200px;
+    margin-left: -10px;
   }
   body .part1 p {
     text-align: center;
-    width: 800px;
+    width: 700px;
     font-size: 26px;
-    margin-left: 100px;
-    color: #0e698a;
-  }
-  body .part1 .popover {
-    display: none;
-    position: absolute;
-    top: 18%;
-    left: 110%;
-    background-color: orange;
-    width: 350px;
-    z-index: 1;
-    border-radius: 8px;
-    padding: 4px;
-  }
-  body .part1 .show-popover {
-    display: block;
-  }
-  body .part1 .see_more {
-    display: none;
-    padding: 12px 18px;
-    border-radius: 8px;
-    color: white;
-    background-color: #dadada;
-    margin-top: 8px;
+    margin-left: 160px;
+    margin-top: -60px;
+    color: #404547;
   }
   body #about {
     text-align: center;
@@ -755,31 +787,43 @@ body #contact #formcon textarea {
     height: 460px;
     background-color: #fdf05d;
   }
-  body #contact h2 {
+  body #contact #contacttable {
+    display: inline;
+  }
+  body #contact #contacttable .part4 {
+    width: 400px;
+    height: 300px;
+    display: flex;
+  }
+  body #contact #contacttable .part4 img {
+    width: 400px;
+    height: auto;
+  }
+  body #contact #contacttable h2 {
     font-size: 30px;
     color: #595775;
     text-align: left;
     margin: 0 auto;
     margin-top: 10px;
   }
-  body #contact #formcon {
+  body #contact #contacttable #formcon {
     display: flex;
     text-align: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 30px;
+    margin-top: -330px;
   }
-  body #contact #formcon label {
+  body #contact #contacttable #formcon label {
     font-size: 16px;
     color: #aba6bf;
     text-align: center;
-    margin-left: 360px;
+    margin-left: 660px;
   }
-  body #contact #formcon input,
-body #contact #formcon textarea {
+  body #contact #contacttable #formcon input,
+body #contact #contacttable #formcon textarea {
     text-align: center;
     display: block;
-    margin-left: 410px;
+    margin-left: 710px;
     margin-top: 0px;
     margin-bottom: 10px;
     padding: 6px;

@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YibinOuyang</title>
@@ -12,23 +15,27 @@
 
 <body>
     <div id="topbar">
-        <img src="image/logo2.svg" alt="">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+        <img id="slide_button" src="image/menu.svg" alt="nav_button">
 
-        </ul>
     </div>
+    <nav id="mainNav">
+        <h2 class="hidden">mainNav</h2>
+        <ul>
+            <li><a href="#mainheader">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        
+        </ul>
+    </nav>
 
     <header id="mainheader">
-        <img src="image/ouyang.jpeg" alt="">
+        <img src="image/myself.jpeg" alt="">
         <h2>hi, I'm </h2>
         <div class="greenbar"></div>
         <h3>YibinOuyang</h3>
         <div class="yellowbar"></div>
         <p>A FRONT-END DEVELOPER</p>
-        <img src="image/yibin.jpeg" alt="">
+        <img src="image/cyrene.jpeg" alt="">
 
     </header>
 
@@ -38,10 +45,6 @@
         <p>I am a student at Fanshawe Collage study IDP3
             and will graduate next April.
             I want to be a web developer in the future. </p>
-            <h2 class="name"></h2>
-            <h3 class="collage"></h3>
-            <h4 class="major"></h4>
-            <p class="hobbies"></p>
         </div>
 
     </section>
@@ -55,15 +58,18 @@
 
         <div id="pastwork">
             <div id="pastwork1">
-                <img src="image/work1.jpeg" alt="">
-                <img src="image/work2.jpeg" alt="">
-                <img src="image/work3.jpeg" alt="">
+                <a href="traa.html"><img src="image/work1.jpeg" alt=""></a>
+                <a href="music.html"><img src="image/work2.jpeg" alt=""></a>
+                <a href="wine.html"><img src="image/work3.jpeg" alt=""></a>
+                
             </div>
             <div id="pastwork2">
-                <img src="image/work4.jpeg" alt="">
-                <img src="image/work5.jpeg" alt="">
-                <img src="image/work6.jpeg" alt=""></div>
-
+                <a href="poster.html"><img src="image/work4.jpeg" alt=""></a>
+                
+                <a href="teambio.html"><img src="image/work5.jpeg" alt=""></a>
+                <a href="logo.html"><img src="image/work6.jpeg" alt=""></div>
+</a>
+                
         </div>
 
     </section>
@@ -72,6 +78,12 @@
 
         <h2>Contact Me</h2>
         <div class="greybar3"></div>
+        <div id="contacttable">
+        <div class="part4">
+        <video width="320" height="240" controls>
+        <source src="image/protfolio_video.mp4" type="video/mp4"> 
+
+        </div>
         <div id="formcon">
             <form id="ContactForm" action="form.php" method="post"></form>
             <label>Name: (required)</label>
@@ -83,7 +95,7 @@
             <label>Feedback:</label>
             <textarea name="comments" id="Comments" required cols="40" rows="6"></textarea>
             <input id="Submit" type="Submit" value="Submit">
-        </div>
+        </div></div>
     </section>
 
     <section id="photograph">
@@ -99,17 +111,22 @@
             <ul id="iconNav">
                 <li id="facebook">
                     <a href="http://www.facebook.com">
-                        <img src="image/facebook.svg" alt="">
+                        <img src="image/facebook-2.svg" alt="">
                     </a>
                 </li>
                 <li id="twitter">
-                    <a href="http://www.twitter.com">
-                        <img src="image/twitter.svg" alt="">
+                    <a href="http://www.instagram.com">
+                        <img src="image/instagram-2.svg" alt="">
+                    </a>
+                </li>
+                <li id="youtube">
+                    <a href="https://www.youtube.com/?hl=zh-cn">
+                        <img src="image/youtube.svg" alt="">
                     </a>
                 </li>
                 <li id="instagram">
-                    <a href="https://www.instagram.com/?hl=zh-cn">
-                        <img src="image/ins.svg" alt="">
+                    <a href="https://www.linkedin.com/?hl=zh-cn">
+                        <img src="image/linkedin.svg" alt="">
                     </a>
                 </li>
             </ul>
